@@ -81,11 +81,12 @@ menu {
    .container{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
    }
    .card{
-      margin: 15px 0;
+      margin: 15px 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
    }
 }
 
