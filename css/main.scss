@@ -9,6 +9,7 @@
 body {
    padding: 5px 40px;
    overflow-x: hidden;
+   font-family: 'Montserrat';
 }
 .direktor{
       position: fixed;
@@ -43,7 +44,6 @@ header {
 }
 
 menu {
-   font-family: 'montserrat';
    .one {
       display: flex;
       flex-direction: row;
@@ -75,7 +75,6 @@ menu {
    }
 }
 .subjects{
-   font-family: 'Montserrat';
    display: flex;
       flex-direction: column;
       justify-content: center;
@@ -92,3 +91,10 @@ menu {
    }
 }
 
+@media only screen and (min-width: 991px) {
+   .navbar-nav {
+         position: relative;
+         left: 260px;
+         margin: 0 auto;
+      }
+}
