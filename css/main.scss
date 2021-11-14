@@ -93,11 +93,20 @@ menu {
 @media only screen and (min-width: 761px){
    .card{
       width: 16rem;
+      
    }
    
 }
 @media only screen and (max-width: 760px) {
    .card{
       width: 20rem;
+   }
+   .chuqurTxt{
+      margin-top: 20px;
+      font-size: 1.6rem;
+   }
+   .maktabTxt{
+      font-size: 1.7rem;
+      margin: 10px;
    }
 }
