@@ -168,23 +168,26 @@ menu {
 }
 footer{
       background-color: rgb(78, 159, 213);
-
+      padding: 20px;
    .icons{
       text-align: center;
-      margin-top: 10px;
       a{
          font-size: 2rem;
          text-decoration: none;
          color: rgb(252, 249, 249);
-         margin: 12px;
       }
-      .text{
-         margin: 0 auto;
-         p{
-            font-size: 2rem;
-         }
+      i{
+         margin: 12px;
+         margin-top: 10px;
       }
    }
+    .text{
+         text-align: center;
+         p{
+            font-size: 1.3rem;
+            margin-bottom: -3px;
+         }
+      }
 }
 
 
