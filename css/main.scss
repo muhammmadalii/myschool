@@ -11,7 +11,9 @@ body {
    overflow-x: hidden;
    font-family: 'Montserrat';
 }
-
+.container{
+   overflow-x: hidden;
+}
 header {
    nav {
       .navbar-nav {
@@ -251,5 +253,17 @@ footer{
       img{
          height: 250px;
       }
+   }
+   .xarita{
+     iframe{
+        width: 370px;
+     }
+   }
+   .manzill{
+      .icons{
+         margin-left: 10px;
+      }
+     position: relative;
+     right: 35px;
    }
 }
