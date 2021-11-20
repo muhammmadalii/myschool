@@ -130,21 +130,21 @@ menu {
                margin: 15px 0;
             }
 
-            .direktor {
+               .direktor {
                background-image: url(/boss/direktor.png);
-
+               }
                .zaoch {
-                  background-image: url(/boss/oibdo.png);
+                  background-image: url(/boss/kibriyopa.png);
                }
 
                .zamfemale {
-                  background-image: url(/boss/mmibdogirl.png);
+                  background-image: url(/boss/gulnozaopa.png);
                }
 
                .zam {
-                  background-image: url(/boss/mmibdomen.png);
+                  background-image: url(/boss/muzaffaraka.png);
                }
-            }
+            
          }
       }
    }
@@ -256,6 +256,10 @@ menu {
    @media only screen and (max-width: 760px) {
       .card {
          width: 20rem;
+         .img{
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
       }
 
       .chuqurTxt {
